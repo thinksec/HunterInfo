@@ -1,0 +1,5 @@
+/hunter.egg-info/
+/build/
+/venv/
+.idea
+/hunter/__pycache__/

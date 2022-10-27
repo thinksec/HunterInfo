@@ -1,0 +1,7 @@
+- id: hunter-info
+  name: hunter passive info for commit
+  description: hunter passive info for commit
+  entry: hunter-info
+  # 实现hook所使用的语言
+  language: python
+  stages: [commit]
