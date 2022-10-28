@@ -25,7 +25,7 @@ repos:
     hooks:
     -   id: hunter-info
 ```
-这里的repo会从远处获取扫描脚本仓库, 这里可以根据自己的网络选择github和gitee仓库<br>
+这里的repo会从远处获取扫描脚本仓库, 这里可以根据自己的网络选择github或gitee仓库<br>
 `https://github.com/thinksec/HunterInfo.git`  
 `https://gitee.com/thinksec/HunterInfo.git`
 
