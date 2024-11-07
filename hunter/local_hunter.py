@@ -155,5 +155,6 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     print(f"{return_code} sensitive information found. can't commit!")
     return return_code
 
+
 if __name__ == '__main__':
     raise SystemExit(main())

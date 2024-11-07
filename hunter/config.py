@@ -4,7 +4,7 @@
 @File    : config.py
 @Desc    : 扫描相关配置
 @Author  : thinksec
-@Date    : 2022/9/8 
+@Date    : 2022/9/8
 """
 
 # 本地扫描目录黑名单
@@ -93,7 +93,7 @@ rules = [
     {
         "name": "Password",
         "desc": "密码信息",
-        "rule": "((.*)(password|pwd|passwd|db_pass|token|secret)\\s*(:|=)+\\s*(.*))",
+        "rule": "((.*)(password|pwd|passwd|db_pass|token|secret)[\",']*\\s*(:|=)+\\s*(.*))",
         "black": [
             "123456",
             "111111",
